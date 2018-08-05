@@ -1,7 +1,7 @@
 \documentclass{fisattraining}
-\title{My report Title}
-\team{My Name}
-\author{My Name}
+\title{Internship report}
+\team{Roby Jacob}
+\author{Roby Jacob}
 \begin{document}
 \maketitle
 \makecert
@@ -23,10 +23,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna mauris, sagi
 \thispagestyle{plain}
 \begin{abstract}
 \vspace{5cm}
-Your Acknowledgement Goes Here
+I would like to express my special thanks of gratitude to my teachers
+Reshmi.R and Jestin Joy as well as our principal Dr. George Issac who gave
+me the permission to do this wonderful internship on the topic System Oriented Architecture for automotive,at FISAT under the guidance of Jestin Joy.They provide me with this program, which also helped me in doing a lot of Research and I came to know about so many new things,I am really thankful to them. Secondly
+I would also like to thank my parents and friends who helped me a lot in
+completing this project within the limited time frame.
 \vspace{1cm}
 \begin{flushright}
-Student 1
+Roby Jacob
 \end{flushright}
 \end{abstract}
 \newpage
@@ -40,69 +44,113 @@ Student 1
 \listoffigures
 \newpage
 
-\cleardoublepage
-\addcontentsline{toc}{chapter}{\listtablename}
-\listoftables
-\newpage
-
-
-
 \chapter{Technology}
 \pagenumbering{arabic}
 \setcounter{page}{1}
 \renewcommand{\baselinestretch}{1.50}
 \section{Introduction}
-The mathematical roots of the idea of fractals have been traced through a formal path of published works, starting in the 17th century with notions of recursion, then moving through increasingly rigorous mathematical treatment of the concept to the study of continuous but not differentiable functions in the 19th century, and on to the coining of the word fractal in the 20th century with a subsequent burgeoning of interest in fractals and computer-based modelling in the 21st century.
+Service Oriented Architecture(SOA) is a style of software design in which  services are provided through a communication protocol. A service is defined as a function that is  well-defined, self-contained,reusable and does not depend on any other service. SOA promotes loose coupling between the service, i.e each service need not know what the other service does, this makes it easy for developers to switch between service providers who provide the same services.
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=.2]{mandelbrot}
-\caption{Mandelbrot Fractal}
+\caption{SOA stages}
 \end{center}
 \end{figure}
-The word "fractal" often has different connotations for laypeople than mathematicians, where the layperson is more likely to be familiar with fractal art than a mathematical conception. The mathematical concept is difficult to formally define even for mathematicians, but key features can be understood with little mathematical background.
-\section{Features}
-The feature of "self-similarity", for instance, is easily understood by analogy to zooming in with a lens or other device that zooms in on digital images to uncover finer, previously invisible, new structure. If this is done on fractals, however, no new detail appears; nothing changes and the same pattern repeats over and over, or for some fractals, nearly the same pattern reappears over and over. Self-similarity itself is not necessarily counter-intuitive (e.g., people have pondered self-similarity informally such as in the infinite regress in parallel mirrors or the homunculus, the little man inside the head of the little man inside the head...). 
-\section{Application/Usage}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna mauris, sagittis sit amet aliquet ut, facilisis et nibh. Praesent turpis tortor, dignissim ut interdum eu, porttitor ut orci. Curabitur laoreet malesuada fermentum. In posuere, purus eu pulvinar luctus, eros urna tempor magna, eu tincidunt erat eros nec turpis. Vestibulum at semper lacus. Nullam tristique lacus vel nibh porta a vehicula tellus volutpat. Pellentesque cursus ullamcorper ante, ut eleifend nisl aliquam id. Nulla porta ornare fermentum. Aliquam id magna sed erat malesuada viverra. Donec non mauris eros, nec egestas ligula. Suspendisse eu tempor ligula. Aliquam egestas nulla vel augue iaculis iaculis nec in risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent malesuada fringilla sapien a faucibus.
-\section{Schedule}
+The figure explains what are the different roles in a SOA system. The service providers may have several services implemented, information about these are  published in a service registry.The client(i.e. the service requestor) who wishes to use a service find the service details from the registry and locates the service provider. Then the client binds with the service provider and access the required service using a service id over a standard protocol(like TCP, UDP).
+\section{Advantages}
+The main advantages of SOA are\\
+  1)Reusability: As services are self contained pieces, they can be used for different clients.\\
+  2)Loose Coupling: Each functions are divided into services, these are not dependent on other services.\\
+  3)Easier debugging: Since each service is self contained it is easy to test and debug features\\
+  4)Platform independent
 
-\begin{tabular}{|c|c|c|c|}
-	\hline Sl No & Date  & No of Hours  & Work done  \\ 
-	\hline  &  &  &  \\ 
-	\hline  &  &  &  \\ 
-	\hline  &  &  &  \\ 
-	\hline  &  &  &  \\ 
-	\hline 
-\end{tabular} 
-
-\chapter{Modules of Training}
-
-The world population is the sum of all humans on Earth. As of today, it is estimated to number 7.004 billion by the United States Census Bureau. The USCB estimates that the world population exceeded 7 billion on March 12, 2012. According to a separate estimate by the United Nations Population Fund, it reached this milestone on October 31, 2011.
-\begin{table}[h!]
+\section{SOA in automotive}
+SOA is currently is not common in automotive mainly because of the Overhead of SOA i.e the high resource required and the testing required which did not have any added benefits. But with the increase of computational power in car and the development of self driving cars SOA can improve the experience of end user and also manufactures. The main advantages of using SOA will be the high flexibility which will allow change to be made during runtime and also services outside and inside the car can be linked. The main protocol developed for this is SOME/IP.\\
+\textbf{SOME/IP}:\\
+Scalable service-Oriented MiddlewarE over IP(SOME/IP) is an automotive middleware solution that can be used for control messages. It is the only middleware protocol integrated into AUTOSAR.\\
+Let's start with the three main parts of the SOME/IP specification:
+\begin{itemize}
+\item On-wire format
+\item Protocol
+\item Service discovery
+\end{itemize}
+\textbf{SOME/IP On-Wire Format}\\
+In principle, SOME/IP communication consists of messages sent between devices or subscribers over IP. Consider the following picture:
+\begin{figure}[h!]
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline Rank & Country & Population  & Percentage  \\ 
-\hline 1 & China & 1,347,350,000 & 19.24\% \\ 
-\hline 2 & India & 1,210,193,422  & 17.28\% \\ 
-\hline 3 & United States & 313,269,000 & 4.47\% \\ 
-\hline 
-\end{tabular}
-\caption{World Population Table} 
+\includegraphics[scale=.5]{SOMEIPOnWireFormat}
+\caption{vsome/ip packet format}
 \end{center}
-\end{table}
-The world's population is unevenly distributed, with six of Earth's seven continents being permanently inhabited on a large scale. As of 2012, Asia is the most populous continent, with its 4.1 billion inhabitants accounting for over 60\% of the world population. The world's two most-populated countries alone, China and India, constitute about 37\% of the world's population. Africa is the second-most-populated continent, with around 1 billion people, or 15\% of the world's population. Europe's 733 million people make up 11\% of the world's population, while the Latin American and Caribbean regions are home to 589 million (9\%).
-
-
+\end{figure}\\
+\textbf{SOME/IP Protocol}\\
+In this section mainly 2 points are important and shall be described now:
+\begin{itemize}
+\item the so-called transport bindings (UDP and TCP)
+\item the basic communication patterns publish/subscribe and request/response.
+\end{itemize}
+As mentioned above the underlying transport protocol can be UDP or TCP. In the UDP case the SOME/IP messages are not fragmented; it can be that more than one message is in one UDP packet but one message cannot be longer than a UDP package can be (up to 1400 Bytes). Bigger messages must be transported via TCP. In this case all the robustness features of TCP are used. If a synchronization error in the TCP stream occurs, the SOME/IP specification allows so-call magic cookies in order to find again the beginning of the next message.\\
+Please note that service interfaces must be instantiated and because there might be several instances of the same interface there must be an additional identifier for the instance defined (instance ID). However the instance ID is not part of the header of the SOME/IP message. The instance is identified via the port number of the transport protocol; that means that it is not possible that several instances of the same interface are offered on the same port.
+Please take now a look at the following picture which shows the basic SOME/IP communication patterns:
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=.5]{SOMEIPProtocol}
+\caption{SOME/IP communication patterns}
+\end{center}
+\end{figure}
+In addition to the standard REQUEST/RESPONSE mechanism for remote procedure calls there is also the PUBLISH/SUBSCRIBE pattern for events. Note that events in the SOME/IP protocol are always grouped in an event group; therefore it is only possible to subscribe to event groups and not to the event itself. The SOME/IP specification also knows "fields"; in this case the setter/getter methods are following the REQUEST/RESPONSE pattern and notfication messages of changes are events. The subscription itself is done via the SOME/IP service discovery.\\
+\textbf{SOME/IP Service discovery}\\
+The SOME/IP Service Discovery is used to locate service instances and to detect if service instances are running as well as implementing the Publish/Subscribe handling. This is mainly done via so-called offer messages; that means that each device broadcasts (multicasts) messages which contain all the services which are offered by this device. SOME/IP SD messages are sent via UDP. If services are required by client applications but at the moment not offered, then also "find messages" can be sent. Other SOME/IP SD messages can be used for publishing or subscribing an eventgroup.\\
+The following picture shows the general structure of a SOME/IP SD message.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=.5]{SOMEIPServiceDiscovery}
+\caption{SOME/IP service discovery message}
+\end{center}
+\end{figure}
+\section{VSOME/IP}
+VSOME/IP is GENIVI's implementation of SOME/IP.\\
+\textbf{Short overview}\\
+Let's have a short look to the basic structure of the GENIVI implementation of SOME/IP which is called vsomeip.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=.5]{vsomeipOverview}
+\caption{vsomeip overview}
+\end{center}
+\end{figure}\\
+As shown in the picture vsomeip covers not only the SOME/IP communication between devices (external communication) but also the internal inter process communication. Two devices communicate via so-called communication endpoints which determine the used transport protocol (TCP or UDP) and its parameters as the port number or other parameters. All these parameters are configuration parameters which can be set in a vsomeip configuration file (json file, see vsomeip user guide). The internal communication is done via local endpoints which are implemented by unix domain sockets using the Boost.Asio library. Since this internal communication is not routed via a central component (e.g. like the D-Bus daemon), it is very fast.\\
+The central vsomeip routing manager gets messages only if they have to be sent to external devices and he distributes the messages coming from outside. There is only one routing manager per device; if nothing is configured the first running vsomeip application also starts the routing manager.
 \chapter{Daily Diary}
 
 
-\section{Day 1 (Use exact date here)}
+\section{Day 1}
 
 \section{Day 2}
 
 \section{Day 3}
 
 \section{Day 4}
+
+\section{Day 5}
+
+\section{Day 6}
+
+\section{Day 7}
+
+\section{Day 8}
+
+\section{Day 9}
+
+\section{Day 10}
+
+\section{Day 11}
+
+\section{Day 12}
+
+\section{Day 13}
+
+\section{Day 14}
+
+\section{Day 15}
 
 \chapter{Summary}
 
@@ -138,3 +186,4 @@ main()
 
 
 \end{document}
+
