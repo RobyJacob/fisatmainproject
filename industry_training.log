@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.5)  6 AUG 2018 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.5)  6 AUG 2018 07:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,46 +357,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-Package epstopdf Info: Source file: <mandelbrot.eps>
-(epstopdf)                    date: 2018-08-05 11:23:06
-(epstopdf)                    size: 1778513 bytes
-(epstopdf)             Output file: <mandelbrot-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-05 11:23:06
-(epstopdf)                    size: 218358 bytes
-(epstopdf)             Command: <repstopdf --outfile=mandelbrot-eps-converted-t
-o.pdf mandelbrot.eps>
-(epstopdf)             \includegraphics on input line 50.
-Package epstopdf Info: Output file is already uptodate.
-<mandelbrot-eps-converted-to.pdf, id=29, 1028.84375pt x 771.88374pt>
-File: mandelbrot-eps-converted-to.pdf Graphic file (type pdf)
-<use mandelbrot-eps-converted-to.pdf>
-Package pdftex.def Info: mandelbrot-eps-converted-to.pdf  used on input line 50
-.
-(pdftex.def)             Requested size: 205.7651pt x 154.37401pt.
+<soastages.jpg, id=29, 369.38pt x 261.97874pt>
+File: soastages.jpg Graphic file (type jpg)
+<use soastages.jpg>
+Package pdftex.def Info: soastages.jpg  used on input line 49.
+(pdftex.def)             Requested size: 73.87468pt x 52.39482pt.
 [1
 
- <./mandelbrot-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ <./soastages.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
-<SOMEIPOnWireFormat.jpg, id=36, 680.7834pt x 319.9152pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+<SOMEIPOnWireFormat.jpg, id=33, 680.7834pt x 319.9152pt>
 File: SOMEIPOnWireFormat.jpg Graphic file (type jpg)
 <use SOMEIPOnWireFormat.jpg>
-Package pdftex.def Info: SOMEIPOnWireFormat.jpg  used on input line 76.
+Package pdftex.def Info: SOMEIPOnWireFormat.jpg  used on input line 75.
 (pdftex.def)             Requested size: 340.39087pt x 159.9572pt.
-<SOMEIPProtocol.jpg, id=37, 625.8582pt x 313.17pt>
+<SOMEIPProtocol.jpg, id=34, 625.8582pt x 313.17pt>
 File: SOMEIPProtocol.jpg Graphic file (type jpg)
 <use SOMEIPProtocol.jpg>
-Package pdftex.def Info: SOMEIPProtocol.jpg  used on input line 91.
+Package pdftex.def Info: SOMEIPProtocol.jpg  used on input line 90.
 (pdftex.def)             Requested size: 312.92833pt x 156.58461pt.
-<SOMEIPServiceDiscovery.jpg, id=38, 613.8132pt x 206.6922pt>
+<SOMEIPServiceDiscovery.jpg, id=35, 613.8132pt x 206.6922pt>
 File: SOMEIPServiceDiscovery.jpg Graphic file (type jpg)
 <use SOMEIPServiceDiscovery.jpg>
-Package pdftex.def Info: SOMEIPServiceDiscovery.jpg  used on input line 101.
+Package pdftex.def Info: SOMEIPServiceDiscovery.jpg  used on input line 100.
 (pdftex.def)             Requested size: 306.90584pt x 103.34584pt.
 
 
@@ -409,10 +397,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<vsomeipOverview.jpg, id=44, 676.929pt x 341.5962pt>
+<vsomeipOverview.jpg, id=41, 676.929pt x 341.5962pt>
 File: vsomeipOverview.jpg Graphic file (type jpg)
 <use vsomeipOverview.jpg>
-Package pdftex.def Info: vsomeipOverview.jpg  used on input line 111.
+Package pdftex.def Info: vsomeipOverview.jpg  used on input line 110.
 (pdftex.def)             Requested size: 338.46367pt x 170.79767pt.
 [3 <./SOMEIPProtocol.jpg>] [4 <./SOMEIPServiceDiscovery.jpg> <./vsomeipOverview
 .jpg>]
@@ -426,7 +414,7 @@ Chapter 3.
 ] (./industry_training.aux) ) 
 Here is how much of TeX's memory you used:
  3776 strings out of 492982
- 54150 string characters out of 6134897
+ 54053 string characters out of 6134897
  127526 words of memory out of 5000000
  7281 multiletter control sequences out of 15000+600000
  10481 words of font info for 36 fonts, out of 8000000 for 9000
@@ -440,10 +428,10 @@ cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on industry_training.pdf (12 pages, 1062149 bytes).
+Output written on industry_training.pdf (12 pages, 853608 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

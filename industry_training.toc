@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {1.1}Introduction}{1}
 \contentsline {section}{\numberline {1.2}Advantages}{1}
 \contentsline {section}{\numberline {1.3}SOA in automotive}{2}
-\contentsline {section}{\numberline {1.4}VSOME/IP}{4}
+\contentsline {section}{\numberline {1.4}VSOME/IP}{3}
 \contentsline {chapter}{\numberline {2}Daily Diary}{5}
 \contentsline {section}{\numberline {2.1}Day 1 (June 30 2018)}{5}
 \contentsline {section}{\numberline {2.2}Day 2 (July 2 2018)}{5}
